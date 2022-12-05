@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="156D4ACB-0D33-1E0D-5F0C-29114A110AC9" name="간호사">
+<createdBy>82105</createdBy>
+<createdTime>2022-11-15 03:22:43 UTC</createdTime>
+<ownerDesignName>hospital01</ownerDesignName>
+<engineerTo>
+<item key="EE0E24D5-9BDB-6BFF-4B0E-5885983AA830" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="간호사ID" id="FCF23BC6-73A7-B748-9A82-C6C5268376B4">
+<createdBy>82105</createdBy>
+<createdTime>2022-11-15 03:22:48 UTC</createdTime>
+<ownerDesignName>hospital01</ownerDesignName>
+<engineerTo>
+<item key="EE0E24D5-9BDB-6BFF-4B0E-5885983AA830" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="담당업무" id="AE854CD5-74F7-6BD5-2E79-09A6E17D3591">
+<createdBy>82105</createdBy>
+<createdTime>2022-11-15 03:23:06 UTC</createdTime>
+<ownerDesignName>hospital01</ownerDesignName>
+<engineerTo>
+<item key="EE0E24D5-9BDB-6BFF-4B0E-5885983AA830" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="성명" id="5DEE8974-D546-AFDC-32D3-56166F12DA34">
+<createdBy>82105</createdBy>
+<createdTime>2022-11-15 03:23:24 UTC</createdTime>
+<ownerDesignName>hospital01</ownerDesignName>
+<engineerTo>
+<item key="EE0E24D5-9BDB-6BFF-4B0E-5885983AA830" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="성별" id="BB47F802-1047-DC1B-130D-AA3BB1347A79">
+<createdBy>82105</createdBy>
+<createdTime>2022-11-15 03:23:35 UTC</createdTime>
+<ownerDesignName>hospital01</ownerDesignName>
+<engineerTo>
+<item key="EE0E24D5-9BDB-6BFF-4B0E-5885983AA830" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="전화번호" id="A65076D3-2D0E-8F32-6A11-91C5DE0F1944">
+<createdBy>82105</createdBy>
+<createdTime>2022-11-15 03:23:49 UTC</createdTime>
+<ownerDesignName>hospital01</ownerDesignName>
+<engineerTo>
+<item key="EE0E24D5-9BDB-6BFF-4B0E-5885983AA830" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="이메일" id="80F83B1F-1CD0-4B0F-EF9F-7FE9185C4C8F">
+<createdBy>82105</createdBy>
+<createdTime>2022-11-15 03:24:00 UTC</createdTime>
+<ownerDesignName>hospital01</ownerDesignName>
+<engineerTo>
+<item key="EE0E24D5-9BDB-6BFF-4B0E-5885983AA830" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="직급" id="97024E4B-397F-4C41-CCF2-C3C8F780D56E">
+<createdBy>82105</createdBy>
+<createdTime>2022-11-15 03:24:11 UTC</createdTime>
+<ownerDesignName>hospital01</ownerDesignName>
+<engineerTo>
+<item key="EE0E24D5-9BDB-6BFF-4B0E-5885983AA830" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D3213D4-B717-AB92-B503-FFAD3D35B28D" name="간호사 PK">
+<createdBy>82105</createdBy>
+<createdTime>2022-11-15 03:23:03 UTC</createdTime>
+<ownerDesignName>hospital01</ownerDesignName>
+<engineerTo>
+<item key="EE0E24D5-9BDB-6BFF-4B0E-5885983AA830" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCF23BC6-73A7-B748-9A82-C6C5268376B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
